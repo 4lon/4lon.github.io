@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d2f74a16.chunk.css",
+    "main.js": "/static/js/main.b848185c.chunk.js",
+    "main.js.map": "/static/js/main.b848185c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e44c97ca.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e44c97ca.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.0c84a81b.chunk.js": "/static/js/2.0c84a81b.chunk.js",
+    "static/js/2.0c84a81b.chunk.js.map": "/static/js/2.0c84a81b.chunk.js.map",
+    "static/js/3.763a75fe.chunk.js": "/static/js/3.763a75fe.chunk.js",
+    "static/js/3.763a75fe.chunk.js.map": "/static/js/3.763a75fe.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.d2f74a16.chunk.css.map": "/static/css/main.d2f74a16.chunk.css.map",
+    "static/js/2.0c84a81b.chunk.js.LICENSE.txt": "/static/js/2.0c84a81b.chunk.js.LICENSE.txt",
+    "static/media/Alon-Circle.773de50f.png": "/static/media/Alon-Circle.773de50f.png",
+    "static/media/HomePage.css": "/static/media/background.f9caf1bb.png",
+    "static/media/logo.ce39d612.svg": "/static/media/logo.ce39d612.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e44c97ca.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.0c84a81b.chunk.js",
+    "static/css/main.d2f74a16.chunk.css",
+    "static/js/main.b848185c.chunk.js"
+  ]
+}
