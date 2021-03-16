@@ -1,16 +1,16 @@
 import React from 'react';
 import { HashRouter, Route } from "react-router-dom";
-import ProjectsPage from "./components/ProjectsPage";
+import ProjectsList from "./components/projectsList/ProjectsList";
 import Navigation from './components/navigation/Navigation';
-import HomePage from "./components/homepage/HomePage";
+import Home from "./components/homepage/Home";
 
 function App() {
   return (
     <HashRouter basename='/'>
      <div>
       <Navigation/>
-      <Route exact path="/" component={HomePage} />
-      <Route path="/projects" component={ProjectsPage} />
+      <Route exact path="/" component={Home} />
+      <Route path="/projects" component={ProjectsList} />
      </div>
     </HashRouter>
    );

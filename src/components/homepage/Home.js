@@ -1,9 +1,9 @@
 import React from "react";
-import "./HomePage.css";
+import "./Home.css";
 import Blurb from "./blurb/Blurb";
 
 
-const HomePage = () => {
+const Home = () => {
 
     return (
         <div>
@@ -13,4 +13,4 @@ const HomePage = () => {
     );
 }
 
-export default HomePage;
+export default Home;

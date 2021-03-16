@@ -1,0 +1,7 @@
+.ProjectBlurb {
+    max-width: 30rem;
+    position: relative;
+    left: 50%;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}
