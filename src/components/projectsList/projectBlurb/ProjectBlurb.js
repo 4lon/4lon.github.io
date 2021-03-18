@@ -5,10 +5,10 @@ const ProjectBlurb = (props) => {
 
     return (
         <div className="ProjectBlurb">
-            <a href={props.link}>
-                <h2>{props.title}</h2>
-                <p>{props.description}</p>
-            </a>
+            <h1>{props.supertitle}</h1>
+            <a href={props.link} target="_blank"><h3>{props.title}</h3></a>
+            <h4>{props.subtitle}</h4>
+            <p>{props.description}</p>
         </div>
     );
 }
