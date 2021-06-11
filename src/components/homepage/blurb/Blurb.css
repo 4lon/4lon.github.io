@@ -35,6 +35,15 @@
 }
 
 @media only screen and (min-width: 34em) {
+  .blurb {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
   .header {
     display: flex;
     justify-content: center;

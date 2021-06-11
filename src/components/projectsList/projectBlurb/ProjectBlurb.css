@@ -1,7 +1,6 @@
 .ProjectBlurb {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    max-width: 30rem;
+    padding: 2rem;
+    max-width: 40rem;
     position: relative;
     left: 50%;
     -ms-transform: translate(-50%, 0%);
