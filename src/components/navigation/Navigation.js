@@ -17,7 +17,7 @@ const Navigation = () => {
             <Nav className="mr-auto">
                <Nav.Link id="navbar-link" href="/#/projects">Projects</Nav.Link>
                <Nav.Link id="navbar-link" href="https://github.com/4lon">GitHub</Nav.Link>
-               <Nav.Link id="navbar-link" href="https://www.thingiverse.com/4lon/designs">Thingiverse</Nav.Link>
+               {/*<Nav.Link id="navbar-link" href="https://www.thingiverse.com/4lon/designs">Thingiverse</Nav.Link>*/}
                <Nav.Link id="navbar-link" href="https://www.linkedin.com/in/AlonN">LinkedIn</Nav.Link>
             </Nav>
             </Navbar.Collapse>
