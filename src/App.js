@@ -22,7 +22,6 @@ function App() {
             <div>
                 <Navbar collapseOnSelect expand="sm" bg="light" variant="light">
                     <Container>
-                        {/*<Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>*/}
                         <Navbar.Brand href="/">
                             <img
                                 src={logo}
