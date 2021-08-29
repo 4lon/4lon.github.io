@@ -2,7 +2,7 @@ import React from 'react';
 import ListEntry from "./components/ListEntry";
 
 const divStyle = {
-    maxWidth: '50rem',
+    maxWidth: '60rem',
     margin: 'auto',
 };
 

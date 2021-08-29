@@ -9,7 +9,9 @@ class ListEntry extends React.Component {
                 <div className="Description">
                     <h4>{this.props.supertitle}</h4>
                     <h5>{this.props.title}</h5>
-                    <h6>{this.props.subtitle}</h6>
+                    <a href={this.props.link} target="_blank" rel="noreferrer">
+                        <h6>{this.props.subtitle}</h6>
+                    </a>
                     <i>{this.props.italicised}</i>
                     <p>{this.props.content}</p>
                 </div>

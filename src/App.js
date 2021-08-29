@@ -7,6 +7,8 @@ import {
 import logo from "./logo.svg";
 import Home from './Home';
 import About from './About';
+import Projects from './Projects';
+import NotFound from './NotFound';
 import {Nav, Navbar, NavDropdown, Container} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -37,11 +39,11 @@ function App() {
                                 <Nav.Link href="/projects" style={navStyle}>Projects</Nav.Link>
                                 <NavDropdown title="Technicals" id="collasible-nav-dropdown" style={navStyle}>
                                     <NavDropdown.Item href="https://github.com/4lon"
-                                                      target="_blank">Github</NavDropdown.Item>
-                                    {/*<NavDropdown.Item href="https://www.thingiverse.com/4lon/designs" target="_blank" >Thingiverse</NavDropdown.Item>*/}
-                                    {/*<NavDropdown.Item href="https://circuitmaker.com/User/Details/4lon" target="_blank" >CircuitMaker</NavDropdown.Item>*/}
+                                                      target="_blank" rel="noreferrer">Github</NavDropdown.Item>
+                                    {/*<NavDropdown.Item href="https://www.thingiverse.com/4lon/designs" target="_blank" rel="noreferrer">Thingiverse</NavDropdown.Item>*/}
+                                    {/*<NavDropdown.Item href="https://circuitmaker.com/User/Details/4lon" target="_blank" rel="noreferrer">CircuitMaker</NavDropdown.Item>*/}
                                     <NavDropdown.Item href="https://www.linkedin.com/in/alonn/"
-                                                      target="_blank">LinkedIn</NavDropdown.Item>
+                                                      target="_blank" rel="noreferrer">LinkedIn</NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
                         </Navbar.Collapse>
@@ -53,6 +55,12 @@ function App() {
                     </Route>
                     <Route path="/about">
                         <About/>
+                    </Route>
+                    <Route path="/projects">
+                        <Projects/>
+                    </Route>
+                    <Route>
+                        <NotFound/>
                     </Route>
                 </Switch>
             </div>
