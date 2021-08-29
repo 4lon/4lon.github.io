@@ -49,7 +49,7 @@ class About extends React.Component {
                     title="Technical Officer"
                     subtitle="UQ Engineering Undergraduate Society"
                     italicised="2021"
-                    content="Managing and updating the dynamic UQ EUS website as well as helping executive with technical issues. Relevant technologies include Wordpress, SQL, PHP, HTML/CSS, Javascript, Linux, and Google Workspace Administration."
+                    content="Managing and updating the dynamic UQ EUS website as well as helping fellow executives and members with technical issues. Relevant technologies include Wordpress, SQL, PHP, HTML/CSS, Javascript, Linux, and Google Workspace Administration."
                 > </ListEntry>
                 <ListEntry
                     heading="Extra-Curricular"
