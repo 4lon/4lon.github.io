@@ -44,7 +44,7 @@ class About extends React.Component {
                     content="Internship in a start up environment developing a front end react app."
                 > </ListEntry>
                 <ListEntry
-                    supertitle="Student Societies/Volunteering"
+                    supertitle="Student Societies / Volunteering"
                     title="VP Sponsorship"
                     subtitle="UQ Engineering Undergraduate Society"
                     italicised="2022"
@@ -59,19 +59,19 @@ class About extends React.Component {
                 <ListEntry
                     heading="Extra-Curricular"
                     title="UQ Engineering Undergraduate Society"
-                    italicised="Jan 2018 - Jun 2023"
+                    italicised="Jan 2018 - Current"
                 > </ListEntry>
                 <ListEntry
                     title="UQ Computing Society"
-                    italicised="Jan 2019 - Jun 2023"
+                    italicised="Jan 2019 - Current"
                 > </ListEntry>
                 <ListEntry
                     title="UQ Innovation and Entrepreneurship Society"
-                    italicised="Jan 2020 - Jun 2023"
+                    italicised="Jan 2020 - Current"
                 > </ListEntry>
                 <ListEntry
                     title="UQ Mechatronics and Robotics Society"
-                    italicised="Jan 2020 - Jun 2023"
+                    italicised="Jan 2020 - Current"
                 > </ListEntry>
                 <ListEntry
                     title="UQ Space"
