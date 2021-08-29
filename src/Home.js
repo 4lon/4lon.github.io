@@ -1,4 +1,4 @@
-import './App.css';
+import './Home.css';
 import React from 'react';
 import {SocialIcon} from "react-social-icons";
 import profile from "./img/profile2.jpg";
@@ -21,7 +21,9 @@ class Home extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="overflow-cover"></div>
+                <div className="overflow-cover">
+                    {/*This hides overflow from profile picture*/}
+                </div>
                 <div className="section-two">
                     <img
                         className="profile"
