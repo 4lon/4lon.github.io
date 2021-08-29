@@ -1,0 +1,32 @@
+.Row {
+    display: flex;
+    flex-direction: row;
+}
+
+.Heading {
+    width: 14rem;
+    padding: 1rem;
+    text-align: right;
+}
+
+.Description {
+    width: 100%;
+    border-left: solid #121212 1rem;
+    padding: 1rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.Description p {
+    text-align: justify;
+
+}
+
+@media only screen and (max-width: 25rem) {
+    .Heading {
+        text-align: left;
+        writing-mode: vertical-lr;
+        text-orientation: sideways;
+        width: 2rem;
+    }
+}
