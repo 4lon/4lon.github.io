@@ -1,6 +1,6 @@
 import './App.css';
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route
 } from "react-router-dom";
@@ -35,8 +35,8 @@ function App() {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="mr-auto">
-                                <Nav.Link href="/about" style={navStyle}>About</Nav.Link>
-                                <Nav.Link href="/projects" style={navStyle}>Projects</Nav.Link>
+                                <Nav.Link href="#/about" style={navStyle}>About</Nav.Link>
+                                <Nav.Link href="#/projects" style={navStyle}>Projects</Nav.Link>
                                 <NavDropdown title="Technicals" id="collasible-nav-dropdown" style={navStyle}>
                                     <NavDropdown.Item href="https://github.com/4lon"
                                                       target="_blank" rel="noreferrer">Github</NavDropdown.Item>
