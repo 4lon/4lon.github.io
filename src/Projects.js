@@ -1,15 +1,10 @@
 import React from 'react';
 import ListEntry from "./components/ListEntry";
 
-const divStyle = {
-    maxWidth: '60rem',
-    margin: 'auto',
-};
-
 class Projects extends React.Component {
     render() {
         return (
-            <div style={divStyle}>
+            <div>
                 <ListEntry
                     heading="WebDev"
                     title="This Website right here"
