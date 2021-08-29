@@ -18,8 +18,7 @@
 }
 
 .space-out {
-    margin-top: 6%;
-    margin-right: 8%;
+    margin: 1rem;
 }
 
 .overflow-cover {
@@ -47,8 +46,9 @@
     color: #fff;
     width: 70%;
     background: #121212;
-    border-radius: 30px;
-    padding: 10px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 1rem;
 }
 
 .content {
@@ -57,7 +57,7 @@
     height: 100%;
     width: 100%;
     display: flex;
-    margin-left: 5%;
+    margin-left: 0;
     align-items: center;
 }
 
@@ -65,5 +65,5 @@
     height: 100%;
     position: absolute;
     transform: skew(-16deg);
-    right: calc(-36vh + 8vw);
+    right: calc(-36vh + 9vw);
 }
