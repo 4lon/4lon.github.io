@@ -8,6 +8,7 @@ import logo from "./logo.svg";
 import Home from './Home';
 import About from './About';
 import Projects from './Projects';
+import Project from "./Project";
 import NotFound from './NotFound';
 import {Nav, Navbar, NavDropdown, Container} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -58,6 +59,9 @@ function App() {
                     </Route>
                     <Route path="/projects">
                         <Projects/>
+                    </Route>
+                    <Route path="/project">
+                        <Project/>
                     </Route>
                     <Route>
                         <NotFound/>
