@@ -1,0 +1,71 @@
+.Slant {
+    width: 100%;
+    height: calc(100vh - 126px);
+    overflow: hidden;
+    background: #f8f9fa;
+}
+
+.section-one {
+    width: 70%;
+    float: left;
+    height: 100%;
+    background-image: url("./img/background.png");
+    background-size: cover;
+    border-right: solid #f8f9fa 20px;
+    position: relative;
+    transform: skew(16deg);
+    z-index: 2;
+}
+
+.space-out {
+    margin: 0.5rem;
+}
+
+.overflow-cover {
+    position: fixed;
+    height: 100%;
+    width: 40%;
+    background: black;
+    z-index: 1;
+}
+
+.section-two {
+    width: 30%;
+    float: left;
+    height: 100%;
+    background: #f8f9fa;
+    color: #f8f9fa;
+    transform: skew(16deg);
+    position: relative;
+    text-align: left;
+    transition: width 0.5s;
+    z-index: 0;
+}
+
+.text {
+    color: #fff;
+    width: 70%;
+    background: #121212;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.content {
+    transform: skew(-16deg);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-left: 0;
+    align-items: center;
+    opacity: 0.85;
+}
+
+.profile {
+    height: 100%;
+    position: absolute;
+    transform: skew(-16deg);
+    right: calc(-36vh + 11vw);
+}
