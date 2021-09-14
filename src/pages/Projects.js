@@ -1,5 +1,5 @@
 import React from 'react';
-import ListEntry from "./components/ListEntry";
+import ListEntry from "../components/ListEntry";
 
 class Projects extends React.Component {
     render() {

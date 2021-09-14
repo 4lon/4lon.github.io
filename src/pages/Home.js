@@ -1,7 +1,7 @@
 import './Home.css';
 import React from 'react';
 import {SocialIcon} from "react-social-icons";
-import profile from "./img/profile2.jpg";
+import profile from "../img/profile2.jpg";
 
 class Home extends React.Component {
     render() {

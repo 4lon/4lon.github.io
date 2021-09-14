@@ -5,11 +5,11 @@ import {
     Route
 } from "react-router-dom";
 import logo from "./logo.svg";
-import Home from './Home';
-import About from './About';
-import Projects from './Projects';
-import Project from "./Project";
-import NotFound from './NotFound';
+import Home from './pages/Home';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Project from "./pages/Project";
+import NotFound from './pages/NotFound';
 import {Nav, Navbar, NavDropdown, Container} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
