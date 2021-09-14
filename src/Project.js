@@ -2,12 +2,12 @@ import React from 'react';
 
 class Project extends React.Component {
     render() {
-        const link = window.location.href
-        const query = link.substring(link.indexOf('?') + 1)
-        const proj = query.substring(query.indexOf('=') + 1)
+        let link = window.location.href
+        link = link.split("/")
+        let project = link[link.length - 1]
         return (
             <div>
-                <h1>{proj}</h1>
+                <h2>{project}</h2>
             </div>
         );
     }
